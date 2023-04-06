@@ -70,7 +70,5 @@ public class DeathListener implements Listener {
             lostItemsMessage += "\nNothing";
         }
         return lostItemsMessage;
-
-
     }
 }

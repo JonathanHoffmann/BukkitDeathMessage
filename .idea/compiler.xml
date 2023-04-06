@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DeathMessage" />
-        <module name="KeepMostInventory" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BukkitDeathMessage" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
